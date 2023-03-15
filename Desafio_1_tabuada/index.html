@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabuada DNC</title>
     <link rel="stylesheet" href="style.css"text/css">
 </head>
 
@@ -19,18 +19,18 @@
     <section>
 
         <div>
-            <p>Qual taboada você deseja saber a tabuada?<br>
-                <input type="number" class="form">
+            <p>Qual tabuada você deseja saber a tabuada?<br>
+                <input type="number" class="form" id="num">
                 </p>
             
 
             <p>
                 Até que número você quer? <br>
-                <input type="number" class="form">
+                <input type="number" class="form" id="end">
             </p>
 
             <p>
-                <input type="button" value="Calcular" id="botao">
+                <input type="button" value="Calcular" id="botao" onclick="tabuada()">
             </p>
         </div >
 
@@ -44,5 +44,8 @@
         
     </section>
     
+    <script src="tabuada_script.js">
+
+    </script>
 </body>
 </html>
