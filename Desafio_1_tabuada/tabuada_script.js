@@ -4,7 +4,7 @@ function tabuada(){
     var end = document.getElementById('end')
 
     if (num.value.lenght == 0 || end.value.lenght == 0){
-        window.alert("comando  invalido tente novamente!");
+        window.alert("comando invalido tente novamente!");
     }else{
         var n = Number(num.value)
         var e = Number(end.value)
