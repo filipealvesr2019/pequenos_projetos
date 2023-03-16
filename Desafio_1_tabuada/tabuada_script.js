@@ -24,8 +24,8 @@ function tabuada(){
             res.innerHTML += x + ' X ' + n + ' = ' + r + '<br>';
             x++
         } while (x <= e)
-
-        window.alert("comando  invalido tente novamente!");
+        
+        
     }
 
    
