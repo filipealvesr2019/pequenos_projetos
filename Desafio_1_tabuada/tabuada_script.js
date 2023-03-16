@@ -11,16 +11,14 @@ function tabuada(){
     var r = ''
 
     var res = window.document.getElementById('resposta')
-    res.innerHTML = 'A tabuada do ' + n + 'é: <br>';
-    r = n*e
+    res.innerHTML = 'A tabuada do '+ n + ' é: <br>';
+    
 
     //document.getElementById('resposta').innerHTML = 'A resposta e: '+ r;
 
-    res.innerHTML = 'A resposta e: ' + r;
-
     do{
         r = n*x
-        res.innerHTML += r + '<br>';
+        res.innerHTML +=  r + '<br>';
         x++
     }while(x <= e)
 
