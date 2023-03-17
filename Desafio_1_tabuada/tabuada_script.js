@@ -3,7 +3,9 @@ function tabuada(){
     var num = window.document.getElementById('num')
     var end = document.getElementById('end')
 
-    if (num.value.lenght == 0 || end.value.lenght == 0){
+    if (!num.value || !end.value)
+    //if (num.value == "" || end.value == '') {
+    {
         window.alert("comando invalido tente novamente!");
     }else{
         var n = Number(num.value)
