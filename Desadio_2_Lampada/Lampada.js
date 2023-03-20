@@ -24,3 +24,7 @@ var lamp = window.document.getElementById('lampada')
     function quebrar(){
         lamp.src = "img/Quebrada.svg"
     }
+
+
+
+    
