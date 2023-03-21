@@ -57,6 +57,7 @@ Salvar(produto){
     this.id++;
 }
 
+
 Listar(){
     let tbody = document.getElementById('tbody')
     tbody.innerText = ''
@@ -92,7 +93,7 @@ Listar(){
         document.getElementById('pdpreco').value = ''
     }
 
-
+   
     Deletar(id){
         let tbody = document.getElementById('tbody');
         for (i = 0; i < This.arrayProdutos.length; i++){
