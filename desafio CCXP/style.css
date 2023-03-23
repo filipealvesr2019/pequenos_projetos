@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}    
+
+
+
+button:hover{
+    background: #514988;
+    cursor: pointer;
+    color: #F3C61F;
+}
