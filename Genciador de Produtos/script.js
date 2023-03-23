@@ -96,7 +96,7 @@ Listar(){
    
     Deletar(id){
         let tbody = document.getElementById('tbody');
-        for (i = 0; i < this.arrayProdutos.length; i++){
+        for (let i = 0; i < this.arrayProdutos.length; i++){
             if(this.arrayProdutos[i].id == id){
                 this.arrayProdutos.splice(i, 1)
                 tbody.deleteRow(i)
