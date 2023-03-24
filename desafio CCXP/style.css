@@ -7,8 +7,154 @@ body{
 
 
 
+
+
+.topo{
+    background-color: #FFD900;
+    height: 40px;
+    padding: 35px;
+    align-items: center;
+
+}
+.topo img{
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.meio{
+    
+       
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.meio h1{
+    font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 85px;
+        
+    
+        color: #F3C61F;
+}
+.meio h2{
+    font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 85px;
+        
+    
+        color: #ffffff;
+}
+#texto{
+    background-color: #514988;
+    height: 500px;
+    float: left;
+    font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 35px;
+        
+    
+        color: #FFFFFF;
+        width: 50%;
+        
+}
+
+.video h3{
+    font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    
+        color: #E33881;
+}
+
+#timer{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 5vw;
+}
+.video h4{
+    font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 85px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    
+        color: #514988;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.fundo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+button{
+    background-color: #514988;
+    height: 50px;
+    width: 100px;
+    border-radius: 12px;
+    color: #ffffff;
+    float: right;
+}
+
 button:hover{
     background: #514988;
     cursor: pointer;
     color: #F3C61F;
 }
+
+
+
+
+
+.ingresso h1{
+    font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 33px;
+        /* identical to box height */
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+    
+        color: #F3C61F;
+}
+.ingresso{
+    height: 30px;
+    margin-bottom: 20px;
+}
+
