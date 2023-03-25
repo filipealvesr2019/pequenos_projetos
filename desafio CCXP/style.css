@@ -55,7 +55,7 @@ body{
         
     
         color: #ffffff;
-        margin-top: -50px;
+        margin-top: -60px;
         margin-left: 50px;
         
 }
@@ -64,7 +64,7 @@ body{
         font-style: normal;
         font-weight: 400;
         font-size: 17px;
-        line-height: 35px;
+        line-height: 30px;
         
     
         color: #FFFFFF;
@@ -72,7 +72,7 @@ body{
 }
 #esquerda{
     background-color: #514988;
-    height: 600px;
+    height: 550px;
     float: left;
     font-family: 'Verdana';
         font-style: normal;
