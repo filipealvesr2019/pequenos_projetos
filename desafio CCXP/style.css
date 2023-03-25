@@ -35,7 +35,6 @@ body{
        
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 .meio h1{
     font-family: 'Verdana';
@@ -57,7 +56,7 @@ body{
     
         color: #ffffff;
 }
-#texto{
+#esquerda{
     background-color: #514988;
     height: 500px;
     float: left;
@@ -73,35 +72,44 @@ body{
         
 }
 
-.video h3{
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    
+    width: 50%;
+    float: right;
+
+}
+.direita h3{
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 700;
         font-size: 25px;
         line-height: 36px;
-        display: flex;
-        align-items: center;
-        text-align: center;
+        
     
         color: #E33881;
+        margin-top: -73px;
 }
 
 #timer{
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 5vw;
+    grid-auto-columns: 10vw;
 }
-.video h4{
+.direita h4{
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
+        font-size: 40px;
         line-height: 85px;
-        display: flex;
-        align-items: center;
-        text-align: center;
     
         color: #514988;
+}
+
+#video{
+    margin-left: 50px;
 }
 
 
@@ -134,7 +142,6 @@ button:hover{
     cursor: pointer;
     color: #F3C61F;
 }
-
 
 
 
