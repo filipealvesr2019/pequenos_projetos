@@ -40,7 +40,7 @@ body{
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 700;
-        font-size: 52px;
+        font-size: 45px;
         line-height: 85px;
         
     
@@ -50,12 +50,12 @@ body{
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 85px;
         
     
         color: #ffffff;
-        margin-top: -60px;
+        margin-top: -50px;
         margin-left: 50px;
         
 }
@@ -63,12 +63,12 @@ body{
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 400;
-        font-size: 17px;
-        line-height: 30px;
+        font-size: 18px;
+        line-height: 24px;
         
     
         color: #FFFFFF;
-        margin-left: 45px;
+        margin-left: 20px;
 }
 #esquerda{
     background-color: #514988;
