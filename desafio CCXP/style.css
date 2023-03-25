@@ -40,7 +40,7 @@ body{
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 52px;
         line-height: 85px;
         
     
@@ -50,7 +50,7 @@ body{
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 700;
-        font-size: 15px;
+        font-size: 20px;
         line-height: 85px;
         
     
@@ -65,15 +65,14 @@ body{
         font-weight: 400;
         font-size: 17px;
         line-height: 35px;
-        display: flex;
-        align-items: center;
-        text-align: center;
+        
     
         color: #FFFFFF;
+        margin-left: 45px;
 }
 #esquerda{
     background-color: #514988;
-    height: 500px;
+    height: 600px;
     float: left;
     font-family: 'Verdana';
         font-style: normal;
@@ -83,8 +82,8 @@ body{
         
     
         color: #FFFFFF;
-        width: 48%;
-        margin-top: -4px;
+        width: 70%;
+        margin-top: -1px;
         
 }
 
@@ -106,9 +105,9 @@ body{
         
     
         color: #E33881;
-        margin-top: -80px;
-        margin-left: -25px;
-        margin-bottom: -5px;
+        margin-top: -75px;
+        margin-left: 15px;
+        margin-bottom: -80px;
 }
 
 #timer{
@@ -116,7 +115,7 @@ body{
     grid-auto-flow: column;
     grid-auto-columns: 10vw;
     margin-left: 40px;
-    margin-top: -60px;
+    margin-top: -40px;
 }
 .direita h4{
     font-family: 'Verdana';
@@ -129,8 +128,9 @@ body{
 }
 
 #video{
-    margin-left: 70px;
-    margin-top: 62px;
+    
+    margin-left: 60px;
+    margin-top: 40px;
 }
 
 
