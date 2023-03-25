@@ -91,12 +91,14 @@ body{
     
         color: #E33881;
         margin-top: -73px;
+        margin-left: 50px;
 }
 
 #timer{
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 10vw;
+    margin-left: 50px;
 }
 .direita h4{
     font-family: 'Verdana';
@@ -130,11 +132,17 @@ body{
 }
 button{
     background-color: #514988;
-    height: 50px;
-    width: 100px;
+    height: 80px;
+    width: 300px;
     border-radius: 12px;
     color: #ffffff;
     float: right;
+    font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 51px;
+        
 }
 
 button:hover{
@@ -150,7 +158,7 @@ button:hover{
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 700;
-        font-size: 27px;
+        font-size: 20px;
         line-height: 33px;
         /* identical to box height */
     
@@ -159,9 +167,10 @@ button:hover{
         text-align: center;
     
         color: #F3C61F;
+        margin-left: 20px;
 }
-.ingresso{
-    height: 30px;
+.ingresso img{
+    height: 150px;
     margin-bottom: 20px;
 }
 
