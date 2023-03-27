@@ -118,6 +118,13 @@ body{
         color: #514988;
 }
 
+
+#timer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 #video{
     
     margin-left: 60px;
