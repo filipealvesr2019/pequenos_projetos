@@ -82,20 +82,13 @@ body{
         
     
         color: #FFFFFF;
-        width: 70%;
-        margin-top: -1px;
+        width: 50%;
+       
         
 }
 
 
-.direita{
-    display: flex;
-    flex-direction: column;
-    
-    width: 60%;
-    float: right;
 
-}
 .direita h3{
     font-family: 'Verdana';
         font-style: normal;
@@ -110,25 +103,6 @@ body{
         margin-bottom: -80px;
 }
 
-#timer{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 10vw;
-    margin-left: 40px;
-    margin-top: 40px;
-    font-family: 'Verdana';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 70px;
-        line-height: 85px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-    
-        color: #514988;
-
-
-}
 
 
 .direita h4{
