@@ -40,11 +40,12 @@ body{
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 700;
-        font-size: 45px;
+        font-size: 50px;
         line-height: 85px;
         
     
         color: #F3C61F;
+        margin-top: -50px;
 }
 .meio h2{
     font-family: 'Verdana';
@@ -55,7 +56,7 @@ body{
         
     
         color: #ffffff;
-        margin-top: -50px;
+        margin-top: -3rem;
         margin-left: 50px;
         
 }
@@ -63,16 +64,17 @@ body{
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 24px;
         
     
         color: #FFFFFF;
         margin-left: 20px;
+        margin-top: 10px;
 }
 #esquerda{
     background-color: #514988;
-    height: 550px;
+    height: 500px;
     float: left;
     margin: 0;
     padding: 0;
@@ -84,7 +86,7 @@ body{
         
     
         color: #FFFFFF;
-        width: 100%;
+        width: 700px;
        display: flex;
        flex-direction: column;
        justify-content: center;
@@ -107,22 +109,34 @@ h3{
         
     
         color: #E33881;
-        margin-top: 75px;
-        margin-left: 15px;
-        margin-bottom: -80px;
+        margin-top: -20px;
+        margin: 0 auto;
+        
 }
 
 
 .timer{
     display: grid;
     grid-auto-flow: column;
+    grid-auto-columns: 10vw;
+    margin: 0 auto;
 }
 
+.timer{
+    font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 85px;
+        
+    
+        color: #514988;
+        margin-top: 30px;
+}
 
 #video{
-    
-    margin-left: 60px;
-    margin-top: 80px;
+    margin-top: -210px;
+    height: 800px;
 }
 
 
