@@ -120,7 +120,7 @@ h3{
 .timer{
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 10vw;
+    grid-auto-columns: 11vw;
     margin: 0 auto;
 }
 
@@ -128,7 +128,7 @@ h3{
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 700;
-        font-size: 50px;
+        font-size: 40px;
         line-height: 85px;
         
     

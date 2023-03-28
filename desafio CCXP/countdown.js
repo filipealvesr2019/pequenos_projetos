@@ -20,6 +20,11 @@ function countDown(){
     hora.innerHTML = formatoTempo(finalHoras)
     minuto.innerHTML = formatoTempo(finalMinutos)
     segundo.innerHTML = formatoTempo(finalSegundos)
+
+    dia.innerHTML = finalDias + 'D'
+    hora.innerHTML = finalHoras + 'H'
+    minuto.innerHTML = finalMinutos + 'M'
+    segundo.innerHTML = finalSegundos + 'S'
 }
 function formatoTempo(tempo){
     if (tempo < 10){
