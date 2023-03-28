@@ -86,7 +86,7 @@ body{
         
     
         color: #FFFFFF;
-        width: 700px;
+        width: 600px;
        display: flex;
        flex-direction: column;
        justify-content: center;
@@ -109,8 +109,8 @@ h3{
         
     
         color: #E33881;
-        margin-top: -1rem;
-        margin-left: 2rem;
+        margin-top: -1.5rem;
+        margin-left: 1rem;
         
         
         
@@ -120,15 +120,16 @@ h3{
 .timer{
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 11vw;
+    grid-auto-columns: 12vw;
     margin: 0 auto;
+    margin-left: 1rem;
 }
 
 .timer{
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 45px;
         line-height: 85px;
         
     
@@ -137,8 +138,9 @@ h3{
 }
 
 #video{
-    margin-top: -200px;
+    margin-top: -215px;
     height: 800px;
+    margin-left: 1rem;
 }
 
 
@@ -155,7 +157,7 @@ h3{
 .fundo {
     display: flex;
     flex-direction: row;
-    margin-top: -200px;
+    margin-top: -130px;
 }
 button{
     background-color: #514988;
@@ -176,7 +178,7 @@ button{
 
 button:hover{
     background: #514988;
-    cursor: pointer;
+    cursor:pointer;
     color: #F3C61F;
 }
 
