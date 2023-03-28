@@ -155,19 +155,19 @@ h3{
 .fundo {
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: -200px;
 }
 button{
     background-color: #514988;
-    height: 90px;
-    width: 400px;
+    height: 100px;
+    width: 450px;
     border-radius: 12px;
     color: #ffffff;
     float: right;
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 25px;
         line-height: 51px;
         margin-top: 20px;
         margin-left: 200px;
@@ -201,6 +201,6 @@ button:hover{
 }
 .ingresso img{
     height: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
