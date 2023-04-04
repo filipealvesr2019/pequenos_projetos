@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page CCXP</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="bigscreen.css">
+    <link rel="stylesheet" media="screen and (min-width: 300px)" href="mobile.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <div class="topo">
         <img src="img/ccxpLOGO.png" alt="">
     </div>
@@ -68,5 +68,16 @@
 
     <script src="countdown.js"></script>
     <script src="main.js"></script>
+
+    <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 300){
+                meio.style.display = "column"
+            }else {
+                meio.style.display = "none"
+            }
+        }
+
+    </script>
 </body>
 </html>
