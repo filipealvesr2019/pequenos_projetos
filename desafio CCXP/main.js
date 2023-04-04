@@ -4,4 +4,4 @@ function addRedBorder(id)
     Element.style.border = "5px solid red";
 }
 
-addRedBorder("");
+//addRedBorder("sexta");
