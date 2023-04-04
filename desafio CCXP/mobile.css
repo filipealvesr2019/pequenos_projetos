@@ -3,16 +3,30 @@
 
 
 @media only screen and (max-width: 768px){
-    
+    .topo{
+        height: 1rem;
+    }
+
+
+
+
+
      .meio{
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
 
     }
 
     .meio #esquerda{
         width: 100%;
+    }
+    #esquerda h1 h2{
+       font-size: 2rem;
+       margin-top: 8rem;
+       text-align: center;
+
     }
     .direita .timer{
         display: grid;
