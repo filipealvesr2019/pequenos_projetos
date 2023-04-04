@@ -22,16 +22,26 @@
     .meio #esquerda{
         width: 100%;
     }
+
     #esquerda h1 {
        font-size: 2rem;
-       margin-top: 8rem;
+       margin-top: 1rem;
        text-align: center;
 
+    }
+    #esquerda h2{
+        margin-bottom: 3rem;
+    }
+
+    #esquerda p{
+        margin-top: -5rem;
+        font-size: 1rem;
     }
     .direita{
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 30rem;
     }
     .timer{
         display: grid;
@@ -40,8 +50,26 @@
         align-items: center;
         font-size: 1rem;
     }
+
+        h3 {
+            font-family: 'Verdana';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 10px;
+            line-height: 36px;
+    
+    
+            color: #E33881;
+            margin-top: -1.5rem;
+            margin-left: 1rem;
+    
+    
+    
+        }
     #video{
         width: 100%;
+        background-size: cover;
+        align-items: center;
     }
 
 
@@ -56,24 +84,30 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        
     }
 
         
 
-    .fundo .ingresso{
+    .fundo .ingresso .quinta .sexta{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+      
         
     }
-
+    .fundo .ingresso .sabado .domingo{
+        display: flex;
+        flex-direction: row;
+    }
+    
     .fundo .ingresso img{
-        height: 15rem;
+        height: 10rem;
     }
         button {
             background-color: #514988;
             height: 100px;
-            width: 200px;
-            border-radius: 12px;
+            width: 300px;
+            border-radius: 20px;
             color: #ffffff;
             float: right;
             font-family: 'Verdana';

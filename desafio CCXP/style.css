@@ -184,7 +184,10 @@ button:hover{
     cursor:pointer;
     color: #F3C61F;
 }
-
+.card-highlight
+{
+    box-shadow: 5px 20px blue;
+}
 
 
 

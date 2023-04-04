@@ -5,3 +5,9 @@ function addRedBorder(id)
 }
 
 //addRedBorder("sexta");
+
+function highlightCard(selector)
+{
+    var Element = document.querySelector(selector);
+    Element.classList.toggle("card-highlight");
+}
