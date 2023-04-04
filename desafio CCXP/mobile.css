@@ -22,17 +22,34 @@
     .meio #esquerda{
         width: 100%;
     }
-    #esquerda h1 h2{
+    #esquerda h1 {
        font-size: 2rem;
        margin-top: 8rem;
        text-align: center;
 
     }
-    .direita .timer{
+    .direita{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .timer{
         display: grid;
         grid-auto-flow: column;
-        grid-auto-columns: 18vw;
+        grid-auto-columns: 15vw;
+        align-items: center;
+        font-size: 1rem;
     }
+    #video{
+        width: 100%;
+    }
+
+
+
+
+
+
+
 
 
     .fundo{
@@ -48,20 +65,26 @@
         flex-direction: column;
         
     }
+
+    .fundo .ingresso img{
+        height: 15rem;
+    }
         button {
             background-color: #514988;
             height: 100px;
-            width: 450px;
+            width: 200px;
             border-radius: 12px;
             color: #ffffff;
             float: right;
             font-family: 'Verdana';
             font-style: normal;
             font-weight: 700;
-            font-size: 25px;
+            font-size: 15px;
             line-height: 51px;
-            margin-top: 20px;
-            margin-left: 200px;
+            margin-top: 2rem;
+            margin: 0 auto;
+            margin-bottom: 20rem;
+            
     
         }
     

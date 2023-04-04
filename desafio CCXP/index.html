@@ -7,8 +7,9 @@
     <title>Landing Page CCXP</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="screen and (min-width: 300px)" href="mobile.css">
+    </head>
 </head>
-<body onresize="mudouTamanho()">
+<body id="itens" onresize="mudouTamanho()">
     <div class="topo">
         <img src="img/ccxpLOGO.png" alt="">
     </div>
@@ -71,10 +72,10 @@
 
     <script>
         function mudouTamanho(){
-            if (window.innerWidth >= 768){
-                meio.style.display = "row"
+            if (window.innerWidth <= 769){
+                itens.style.display = "row"
             }else {
-                meio.style.display = "none"
+                itens.style.display = "none"
             }
         }
 
