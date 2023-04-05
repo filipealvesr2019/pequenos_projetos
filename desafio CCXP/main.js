@@ -1,3 +1,6 @@
+const ingressos = [];
+
+
 function addRedBorder(id)
 {
     Element = document.querySelector("#" + id);
@@ -61,5 +64,16 @@ function addKeyBoardEventListener()
     }, false);
 }
 
+function selectCard(selector)
+{
+    var Element = document.querySelector(selector);
+    Element.classList.toggle("card-Selected");
+    if(ingressos.includes(selector)) ingressos.pop(selector);
+    else ingressos.push(selector)
+}
 
+function showSelectedCards()
+{
+    if(ingressos.lenght > 0) alert("Ingressos Selecionados: " + ingressos);
+}
 addKeyBoardEventListener();
