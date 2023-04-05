@@ -140,9 +140,10 @@
             
             margin: 0 auto;
             margin-bottom: 10rem;
-            margin-right: 2rem;
+
             margin-top: 2rem;
-            
+            align-items: center;
+            margin-right: 4rem;
     
         }
     
