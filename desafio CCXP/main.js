@@ -3,7 +3,7 @@ const ingressos = [];
 
 function addRedBorder(id)
 {
-    Element = document.querySelector("#" + id);
+    Element = document.querySelector(`#${id}`);
     Element.style.border = "5px solid red";
 }
 
@@ -64,7 +64,8 @@ function addKeyBoardEventListener()
     }, false);
 }
 
-function selectCard(selector)
+//function selectCard(selector)
+ selectCard = (selector) =>
 {
     var Element = document.querySelector(selector);
     Element.classList.toggle("card-Selected");
@@ -72,7 +73,8 @@ function selectCard(selector)
     else ingressos.push(selector)
 }
 
-function showSelectedCards()
+ //function showSelectedCards()
+ showSelectedCards = () =>
 {
     if(ingressos.lenght > 0) alert("Ingressos Selecionados: " + ingressos);
 }
