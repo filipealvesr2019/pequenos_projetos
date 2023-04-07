@@ -220,8 +220,11 @@ button:hover{
     background: #F3C61F;
     height: 8rem auto;
     align-items: center;
+    display: flex;
+    
 
 }
+
 input{
     background: #514988;
     border-radius: 10px;
@@ -230,5 +233,12 @@ input{
     margin: 30px;
     width: 300px;
     height: 40px;
+    font-size: 20px;
+}
+input::placeholder{
+    color: #FFFFFF;
+}
+form input[type="submit"]{
+    width: 200px;
     font-size: 25px;
 }
