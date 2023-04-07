@@ -164,7 +164,7 @@ h3{
 }
 button{
     background-color: #514988;
-    height: 100px;
+    height: 45%;
     width: 400px;
     border-radius: 12px;
     color: #ffffff;
@@ -172,7 +172,7 @@ button{
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 700;
-        font-size: 25px;
+        font-size: 22px;
         line-height: 51px;
         margin-top: 20px;
         margin-left: 200px;
