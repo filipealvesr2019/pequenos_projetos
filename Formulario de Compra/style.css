@@ -7,15 +7,18 @@ body{
     background-color: #616161;
     display: flex;
     justify-content: center;
+    
 }
 
 main{
     border: 1 solid black;
+    border-radius: 1rem;
     width: 40%;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     background-color:#fdd835;
+    margin-top: 4rem;
 }
 
 main form{
@@ -37,8 +40,9 @@ input{
 input[type="submit"]{
     background-color:#7B68EE;
     color: white;
+    margin-top: 1rem;
     margin-left: 3rem;
-    width: 30%;
+    width: 35%;
     height: 2rem;
     font-size: 1rem;
     font-weight: bold;
