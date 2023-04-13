@@ -242,10 +242,56 @@ form input[type="submit"]{
     width: 200px;
     font-size: 25px;
 }
+/*--tela responsiva para iphone SE--*/
+@media only screen and (max-width: 667) and (min-width: 375) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
 
-@media only screen and (max-width: 760px) and (min-width: 300px) {
+    }
+    .topo{
+        width: auto;
+    }
+    .meio{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+    }
+    .fundo{
+        display: flex;
+        flex-direction: column;
+    }
+    .fundo h1{
+        display: flex;
+        flex-direction: column;
+    }
+    .direita h3{
+        font-size: 13px;
+    }
+    .esquerda{
+        align-items: center;
+    }
+    .ingresso{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+    }
     button{
+        margin: 0 auto;
         height: 10%;
+    }
+    .timer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-auto-columns: 40vw;
+        font-size: 1.5rem;
+    }
+    video{
+        width: 100%;
+        background-image: cover;
+        margin-top: -10rem;
     }
     
 }
