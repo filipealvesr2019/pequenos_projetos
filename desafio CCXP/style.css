@@ -255,13 +255,22 @@ form input[type="submit"]{
 }
 /*--tela responsiva para iphone SE de 375x667--*/
 @media only screen and (max-width: 660px) and (min-width: 300px) {
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     button{
         height: 1rem;
     }
-    .ingresso{
+    
+    .ingresso #sexta #quinta #sabado #domingo{
         display: grid;
         grid-template-columns: 1fr 1fr;
         }
+    }
+    #alinhamento{
+        font-size: 1rem;
     }
 
 
