@@ -250,7 +250,7 @@ form input[type="submit"]{
     font-size: 25px;
 }
 
-#ing2 img:nth-last-child(2) {
+#ing2 img:nth-last-child() {
     filter: grayscale(1);
 }
 /*--tela responsiva para iphone SE de 375x667--*/
