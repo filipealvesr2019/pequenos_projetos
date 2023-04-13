@@ -253,32 +253,33 @@ form input[type="submit"]{
 
 /*--tela responsiva para iphone SE de 375x667--*/
 @media only screen and (max-width: 660px) and (min-width: 300px) {
-    body{
+    *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+    }
+    body{
         display: flex;
         flex-direction: column;
-        display: block;
+        
+
     }
    button{
-        height: 10px;
-        display: grid;
-        grid-template-rows: 1fr;
+        height: 5rem;
+        width: 15rem;
+        margin-right: 5rem;
+        font-size: 1.2rem;
+        
     }
-   .fundo{
-    height: 1000px;
-   }
-   
-    h1{
-        display: grid;
-        grid-template-rows: 1fr;
-        text-align: center;
+    .meio{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
     }
-
-    .ingresso #alinhamento{
-        display: grid;
-        grid-template-rows: 1fr 1fr;
+    
+    .ingresso{
+        display: flex;
+        flex-wrap: wrap;
     }
 
 }
