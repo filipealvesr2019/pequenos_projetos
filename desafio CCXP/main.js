@@ -61,7 +61,7 @@ function addKeyBoardEventListener()
             ingresso3.classList.remove("card-highlight");
             ingresso4.classList.toggle("card-highlight");
         }
-    }, false);
+    }, false)
 }
 
 //function selectCard(selector)

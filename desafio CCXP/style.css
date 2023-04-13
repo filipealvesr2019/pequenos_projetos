@@ -216,7 +216,7 @@ button:hover {
 }
 
 button:hover{
-    box-shadow: 8px 8px 8px 8px gray;
+    box-shadow: 7px 7px 7px 7px gray;
 }
 
 .card-Selected{
@@ -250,28 +250,35 @@ form input[type="submit"]{
     font-size: 25px;
 }
 
-#ing2 img:nth-last-child() {
-    filter: grayscale(1);
-}
+
 /*--tela responsiva para iphone SE de 375x667--*/
 @media only screen and (max-width: 660px) and (min-width: 300px) {
     body{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        display: block;
     }
-    button{
-        height: 1rem;
-    }
-    
-    .ingresso #sexta #quinta #sabado #domingo{
+   button{
+        height: 10px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        }
+        grid-template-rows: 1fr;
     }
-    #alinhamento{
-        font-size: 1rem;
-    }
-
-
+   .fundo{
+    height: 1000px;
+   }
    
+    h1{
+        display: grid;
+        grid-template-rows: 1fr;
+        text-align: center;
+    }
+
+    .ingresso #alinhamento{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+}
