@@ -167,6 +167,8 @@ button {
     line-height: 51px;
     margin-top: 20px;
     margin-left: 200px;
+    border: 0;
+    border: 1px solid black;
 
 }
 
@@ -213,12 +215,12 @@ button:hover {
     margin-bottom: 15px;
 }
 
-.card-highlight {
-    box-shadow: 10px 10px 10px 10px gray;
+button:hover{
+    box-shadow: 8px 8px 8px 8px gray;
 }
 
 .card-Selected{
-    border: 5px solid green;
+    filter: drop-shadow(9px 9px 9px black);
 }
 
 #input{
@@ -246,6 +248,10 @@ input::placeholder{
 form input[type="submit"]{
     width: 200px;
     font-size: 25px;
+}
+
+#ing2 img:nth-last-child(2) {
+    filter: grayscale(0.1);
 }
 /*--tela responsiva para iphone SE de 375x667--*/
 @media only screen and (max-width: 660px) and (min-width: 370px) {
