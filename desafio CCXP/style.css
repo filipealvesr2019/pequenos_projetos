@@ -256,7 +256,6 @@ form input[type="submit"]{
     *{
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
     }
     body{
         display: flex;
@@ -282,8 +281,13 @@ form input[type="submit"]{
         flex-direction: column;
         /*flex-wrap: wrap;*/
     }
+    .meio .esquerda{
+        width: 10%;
+    }
     .direita h3{
-        font-size: 1rem;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
     }
     .direita .timer{
         display: grid;
