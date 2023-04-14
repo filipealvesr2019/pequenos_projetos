@@ -48,7 +48,7 @@ body{
         
     
         color: #F3C61F;
-        margin-top: -50px;
+        margin-top: -1rem;
 }
 .meio h2{
     font-family: 'Verdana';
@@ -285,13 +285,16 @@ form input[type="submit"]{
         width: 250%;
         display: flex;
         align-items: center;
+        
     }
     #esquerda h1{
         font-size: 1.5rem;
+        margin-left: 4rem;
         
     }
     #esquerda h2{
         font-size: 5px;
+        
     }
     #esquerda p{
         font-size: 8px;
