@@ -74,7 +74,7 @@ function addKeyBoardEventListener()
 }
 
  //function showSelectedCards()
-CARDS = () =>
+cards = () =>
 {
     if(ingressos.length > 0) alert("Ingressos Selecionados: " + ingressos);
 }
