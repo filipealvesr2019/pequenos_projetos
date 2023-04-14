@@ -273,6 +273,13 @@ form input[type="submit"]{
         margin-bottom: 2rem;
         
     }
+   .topo{
+    height: 6rem;
+   }
+   .topo{
+    height: 20%;
+    padding: 1rem;
+   }
     .meio{
         display: flex;
         flex-direction: column;
@@ -286,6 +293,7 @@ form input[type="submit"]{
     }
     #esquerda{
         width: 250%;
+        height: 80%;
         display: flex;
         align-items: center;
         
@@ -296,7 +304,7 @@ form input[type="submit"]{
         
     }
     #esquerda h2{
-        font-size: 5px;
+        font-size: 0.8rem;
         margin-left: 0.5rem;
         
     }
@@ -312,7 +320,7 @@ form input[type="submit"]{
         width: 230%;
     }
     .direita h3{
-        font-size: 5px;
+        font-size: 0.5rem;
         text-align: center;
     }
 
@@ -320,11 +328,14 @@ form input[type="submit"]{
         display: grid;
         grid-auto-flow: column;
         grid-auto-columns: 23vw;
-        font-size: 1rem;
+        font-size: 1.2rem;
         text-align: center;
     }
     #video{
-        width: 80%;
+        width: 85%;
+        margin-top: -24rem;
+        margin-bottom: -8rem;
+        margin-left: 1rem;
     }
     form input[type="email"]{
         width: 85%;
@@ -340,6 +351,10 @@ form input[type="submit"]{
         margin-top: 2rem;
         display: flex;
         flex-wrap: wrap;
+    }
+    .ingresso h1{
+        font-size: 0.6rem;
+        margin-top: -1.8rem;
     }
 
     
