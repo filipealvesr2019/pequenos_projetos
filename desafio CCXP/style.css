@@ -282,14 +282,21 @@ form input[type="submit"]{
         /*flex-wrap: wrap;*/
     }
     #esquerda{
-        width: 300px;
+        width: 250%;
+    }
+    #esquerda{
+        width: 250%;
+    }
+    .direita{
+        width: 40%;
     }
     .direita h3{
-        font-size: 10px;
+        font-size: 5px;
         display: flex;
         justify-content: center;
         margin-right: 12rem;
     }
+
     .direita .timer{
         display: grid;
         grid-auto-flow: column;
