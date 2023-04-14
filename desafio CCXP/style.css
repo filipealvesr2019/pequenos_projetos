@@ -320,7 +320,7 @@ form input[type="submit"]{
         width: 230%;
     }
     .direita h3{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
         text-align: center;
     }
 
@@ -336,6 +336,8 @@ form input[type="submit"]{
         margin-top: -24rem;
         margin-bottom: -8rem;
         margin-left: 1rem;
+        align-items: center;
+
     }
     form input[type="email"]{
         width: 85%;
