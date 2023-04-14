@@ -264,10 +264,12 @@ form input[type="submit"]{
 
     }
    button{
-        height: 5rem;
+        height: 4rem;
         width: 15rem;
         font-size: 1.2rem;
         margin: 0 auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         
     }
     .meio{
@@ -289,15 +291,17 @@ form input[type="submit"]{
     }
     #esquerda h1{
         font-size: 1.5rem;
-        margin-left: 4rem;
+        text-align: center;
         
     }
     #esquerda h2{
         font-size: 5px;
+        margin-left: 0.5rem;
         
     }
     #esquerda p{
         font-size: 8px;
+        margin-left: 0.5rem;
     }
 
     .direita{
