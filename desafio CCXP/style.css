@@ -267,8 +267,8 @@ form input[type="submit"]{
    button{
         height: 5rem;
         width: 15rem;
-        margin-right: 5rem;
         font-size: 1.2rem;
+        margin: 0 auto;
         
     }
     .meio{
@@ -279,7 +279,24 @@ form input[type="submit"]{
     
     .ingresso{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        /*flex-wrap: wrap;*/
     }
-
+    .direita h3{
+        font-size: 1rem;
+    }
+    .direita .timer{
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 33vw;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .esquerda video{
+        width: 50%;
+        margin-left:-5rem;
+    }
+    form input{
+        width: 30%;
+    }
 }
