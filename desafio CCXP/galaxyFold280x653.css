@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        body {
+            display: flex;
+            flex-direction: column;
+    
+    
+        }
+    
+        button {
+            height: 4rem;
+            width: 15rem;
+            font-size: 1rem;
+            margin: 0 auto;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+    
+        }
+    
+        .topo {
+            height: 6rem;
+        }
+    
+        .topo {
+            height: 20%;
+            padding: 1rem;
+        }
+    
+        .meio {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+        }
+    
+        .ingresso {
+            display: flex;
+            flex-direction: column;
+            /*flex-wrap: wrap;*/
+        }
+    
+        #esquerda {
+            width: 250%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+    
+        }
+    
+        #esquerda h1 {
+            font-size: 1.5rem;
+            text-align: center;
+    
+        }
+    
+        #esquerda h2 {
+            font-size: 0.8rem;
+            margin-left: 0.5rem;
+    
+        }
+    
+        #esquerda p {
+            font-size: 8px;
+            margin-left: 0.5rem;
+        }
+    
+        .direita {
+    
+            display: flex;
+            flex-direction: column;
+            width: 230%;
+        }
+    
+        .direita h3 {
+            font-size: 0.6rem;
+            text-align: center;
+        }
+    
+        .direita .timer {
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: 23vw;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    
+        #video {
+            width: 85%;
+            margin-top: -24rem;
+            margin-bottom: -8rem;
+            margin-left: 1rem;
+            align-items: center;
+    
+        }
+    
+        form input[type="email"] {
+            width: 85%;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+        }
+    
+        form input[type="submit"] {
+            width: 40%;
+            margin-top: 0.2rem;
+        }
+    
+        .ingresso img {
+            width: 100%;
+            margin-top: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .ingresso h1 {
+            font-size: 0.6rem;
+            margin-top: -1.8rem;
+        }
+    
+    
+    }
