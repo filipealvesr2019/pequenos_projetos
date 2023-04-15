@@ -115,7 +115,6 @@
             width: 100%;
             margin-top: 2rem;
             display: grid;
-            g
             grid-template-columns: 1fr 1fr;
         }
     
