@@ -213,8 +213,10 @@ button:hover {
         float: left;
 }
 
-.ingresso img{
+.ingresso {
     height: 10rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 button:hover{
     box-shadow: 7px 7px 7px 7px gray;
