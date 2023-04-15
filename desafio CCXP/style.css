@@ -11,8 +11,8 @@ body{
 
 .topo{
     background-color: #FFD900;
-    height: 30px;
-    padding: 35px;
+    height: 2rem;
+    padding: 3rem;
     align-items: center;
 
 }
@@ -43,8 +43,8 @@ body{
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 700;
-        font-size: 50px;
-        line-height: 85px;
+        font-size: 2.8rem;
+        line-height: 7rem;
         
     
         color: #F3C61F;
@@ -54,12 +54,12 @@ body{
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
+        font-size: 1.1rem;
         line-height: 85px;
         
     
         color: #ffffff;
-        margin-top: -3rem;
+        margin-top: -2rem;
         margin-left: 50px;
         
 }
@@ -159,16 +159,19 @@ button {
     width: 350px;
     border-radius: 12px;
     color: #ffffff;
-    float: right;
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 51px;
-    margin-top: 20px;
-    margin-left: 200px;
+    
     border: 0;
     border: 1px solid black;
+    float: right;
+    margin-top: 4rem;
+    margin-left: 9rem;
+
+    
 
 }
 
@@ -194,7 +197,7 @@ button:hover {
 
 
 
-.ingresso h1{
+.texto h1{
     font-family: 'Verdana';
         font-style: normal;
         font-weight: 700;
@@ -202,19 +205,17 @@ button:hover {
         line-height: 33px;
         /* identical to box height */
     
-        display: flex;
-        align-items: center;
-        text-align: center;
+        
     
         color: #F3C61F;
         margin-top:-15px;
         margin-left: 22px;
-}
-.ingresso img{
-    height: 150px;
-    margin-bottom: 15px;
+        float: left;
 }
 
+.ingresso img{
+    height: 10rem;
+}
 button:hover{
     box-shadow: 7px 7px 7px 7px gray;
 }
@@ -269,8 +270,7 @@ form input[type="submit"]{
         width: 15rem;
         font-size: 1rem;
         margin: 0 auto;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        
         
     }
    .topo{
@@ -286,7 +286,7 @@ form input[type="submit"]{
         width: 40%;
     }
     
-    .ingresso{
+    .texto{
         display: flex;
         flex-direction: column;
         /*flex-wrap: wrap;*/
@@ -355,10 +355,12 @@ form input[type="submit"]{
         display: flex;
         flex-wrap: wrap;
     }
-    .ingresso h1{
+    .texto h1{
         font-size: 0.6rem;
         margin-top: -1.8rem;
     }
+
+    
 
     
 }
