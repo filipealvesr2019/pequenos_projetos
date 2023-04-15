@@ -49,6 +49,7 @@ body{
     
         color: #F3C61F;
         margin-top: -2rem;
+        margin-left: -2rem;
 }
 .meio h2{
     font-family: 'Verdana';
@@ -60,7 +61,7 @@ body{
     
         color: #ffffff;
         margin-top: -5rem;
-        margin-left: 1rem;
+        margin-left: -2rem;
         
 }
 .meio p{
@@ -72,7 +73,7 @@ body{
         
     
         color: #FFFFFF;
-        margin-left: 1.5rem;
+        margin-right: 2.2rem;
         margin-top: -1rem;
 }
 #esquerda{
@@ -208,7 +209,7 @@ button:hover {
     
         color: #F3C61F;
         margin-top:-2.5rem;
-        margin-left: 1.1rem;
+        margin-left: 1rem;
         float: left;
 }
 
