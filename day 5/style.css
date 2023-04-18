@@ -122,7 +122,7 @@ ul button{
     margin-top: 0.5rem;
 }
 .sectionA h1{
-    margin-top: -2rem;
+   
     font-size: 1.5rem;
 }
 
@@ -175,7 +175,7 @@ ul{
 image span{
     font-size: 20px;
 }
-#seta1{
+#seta-direita{
     position: absolute;
     padding: 0.5rem;
     box-shadow: 3px 3px 0 2px;
@@ -186,7 +186,7 @@ image span{
     margin-left: -0.8rem;
     border-radius: 2px;
 }
-#seta2 {
+#seta-esquerda{
     position: absolute;
     padding: 0.5rem;
     box-shadow: 3px 3px 0 2px;
@@ -196,6 +196,11 @@ image span{
     transform: rotate(-50deg);
     margin-left: 21.5rem;
     border-radius: 2px;
+}
+.text-d1{
+    font-weight: 700;
+    color: #4DBCE9;
+    
 }
 @media only screen  and (min-width: 280px) and (max-width: 653px){
    
