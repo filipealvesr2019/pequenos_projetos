@@ -39,39 +39,11 @@ h1{
 }
 #sideB{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
-#carrossel{
-    height: 20rem;
-    width: 16rem;
-    background: rgba(77, 188, 233, 0.75);
-    border-radius: 0.5em;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-}
-#setaDireita {
-    position: absolute;
-    padding: 1rem 1rem 1rem 1rem;
-    box-shadow: 5px -5px 0 1px #4DBCE9 inset;
-    border: solid transparent;
-    border-width: 0 0 2px 2px;
-    color: #265E70;
-    transform: rotate(45deg);
-    border-radius: 7px;
-    
-}
-#setaEsquerda{
-    position: absolute;
-    padding: 1rem 1rem 1rem 1rem;
-    box-shadow: 5px -5px 0 1px #4DBCE9 inset;
-    border: solid transparent;
-    border-width: 0 0 2px 2px;
-    color: #265E70;
-    transform: rotate(-140deg);
-    border-radius: 7px;
-    
-}
+
 
 #input{
     background: #4DBCE9;
