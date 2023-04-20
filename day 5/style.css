@@ -31,6 +31,7 @@ h1{
         color: #265E70;
 }
 #h2{
+    text-align: center;
     color: #265E70;
     font-family: 'Verdana';
     font-style: normal;
@@ -78,4 +79,9 @@ button{
     margin-top: 1rem;
 }
 
-#
+.right-side{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+}
