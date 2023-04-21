@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header{
-    height: 1.5rem;
+    height: 4rem;
     background: #303030;
     padding: 20px;
 }
@@ -40,6 +42,7 @@ h1{
 }
 #sideB{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -91,4 +94,185 @@ button{
     
     
 
+}
+.img{
+    align-items: center;
+    width: 17rem;
+}
+.right-side{
+    align-items: center;
+}
+.E, .D{
+    display: none;
+}
+.carousel-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 1440px) and (min-width: 760px){
+    header{
+        height: 7rem;
+    }
+        #img{
+            margin-top: -1rem;
+            height: 6rem;
+            color: white;
+        }
+    header p{
+        font-size: 2.5rem;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        margin-top: -5rem;
+    }
+    .E, .D{
+        display: block;
+    }
+    #sideA{
+        display: flex;
+        flex-direction: column;
+        float: left;
+        padding: 4rem;
+    }
+    #sideB{
+        display: flex;
+        flex-direction: column;
+        float: left;
+        text-align: center;
+        padding: 4rem;
+    }
+        #geral{
+        display: flex;
+        
+    }
+    .esconder{
+        display: none;
+        align-items: center;
+    }
+        .right-side button {
+            background-color: transparent;
+            cursor: pointer;
+    
+    
+    
+        }
+.img{
+    width: 22rem;
+}
+.img2 {
+    width: 20rem;
+}
+h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 2rem;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+}
+
+#mg {
+    display: none;
+}
+
+#image {
+    display: block;
+}
+
+
+
+}
+@media only screen and (max-width: 1280px) and (min-width: 800px){
+    header{
+        height: 5rem;
+    }
+
+    #sideA{
+        padding: 1rem;
+    }
+    #sideB{
+        padding: 4rem;
+    }
+    .img{
+        width: 20rem;
+    }
+    .img2{
+        width: 20rem;
+    }
+    h1{
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 900px){
+    header{
+        height: 7rem;
+    }
+        #img{
+            margin-top: -1rem;
+            height: 6rem;
+            color: white;
+        }
+    header p{
+        font-size: 2.5rem;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        margin-top: -5rem;
+    }
+    .E, .D{
+        display: block;
+    }
+    #sideA{
+        display: flex;
+        flex-direction: column;
+        float: left;
+        padding: 4rem;
+    }
+    #sideB{
+        display: flex;
+        flex-direction: column;
+        float: left;
+        text-align: center;
+        padding: 4rem;
+    }
+        #geral{
+        display: flex;
+        
+    }
+    .esconder{
+        display: none;
+        align-items: center;
+    }
+        .right-side button {
+            background-color: transparent;
+            cursor: pointer;
+    
+    
+    
+        }
+.img{
+    width: 22rem;
+}
+.img2 {
+    width: 20rem;
+}
+h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 2rem;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+}
+
+#mg{
+    display: none;
+}
 }
