@@ -4,7 +4,7 @@ const firstImage = [0];
 const lastImage = images.length -1;
 let currentImage = 0;
 // 
-const nextBtn = document.getElementById('SE');
+const nextBtn = document.getElementById('SD');
 nextBtn.addEventListener('click',function(){
 
     const imagaTag = document.getElementById('image');
@@ -16,7 +16,7 @@ nextBtn.addEventListener('click',function(){
     
 });
 //prev
-const preBnt = document.getElementById('SD');
+const preBnt = document.getElementById('SE');
 preBnt.addEventListener('click', () =>{
     const imagaTag = document.getElementById('image');
     currentImage--;

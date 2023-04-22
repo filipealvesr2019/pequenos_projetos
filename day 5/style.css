@@ -95,7 +95,7 @@ button{
     
 
 }
-.img{
+.imga{
     align-items: center;
     width: 17rem;
 }
@@ -115,6 +115,18 @@ button{
 #image{
     display: none;
 }
+
+#butao{
+    background: #4DBCE9;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+    width: 10rem;
+    height: 3rem;
+    border: 0;
+    margin-top: 1.5rem;
+}
 @media only screen and (max-width: 1440px) and (min-width: 760px){
     header{
         height: 7rem;
@@ -133,6 +145,7 @@ button{
     }
     .E, .D{
         display: block;
+        width: 1rem;
     }
     #sideA{
         display: flex;
@@ -146,6 +159,7 @@ button{
         float: left;
         text-align: center;
         padding: 4rem;
+        margin-top: 3.5rem;
     }
         #geral{
         display: flex;
@@ -158,14 +172,16 @@ button{
         .right-side button {
             background-color: transparent;
             cursor: pointer;
+            display: flex;
+            align-items: center;
     
     
     
         }
-.img{
-    width: 22rem;
+.imga{
+    width: 25rem;
 }
-.img2 {
+.imgb {
     width: 20rem;
 }
 h1{
