@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -23,7 +24,8 @@ p{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 
 }
 h1{
@@ -31,14 +33,18 @@ h1{
         font-style: normal;
         font-weight: 400;
         color: #265E70;
+        font-size: 1.5rem;
 }
+
 #h2{
     text-align: center;
     color: #265E70;
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 #sideB{
     display: flex;
@@ -99,11 +105,16 @@ button{
     align-items: center;
     width: 17rem;
 }
+.img{
+    width: 15rem;
+}
 .right-side{
     align-items: center;
 }
 .E, .D{
     display: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .carousel-img{
     display: flex;
@@ -121,15 +132,27 @@ button{
     border-radius: 10px;
     font-family: 'Inter';
     font-style: normal;
+    font-size: 1.3rem;
     color: #FFFFFF;
     width: 10rem;
     height: 3rem;
     border: 0;
     margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+#setaE{
+    height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+#setaD{
+    height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
 }
 @media only screen and (max-width: 1440px) and (min-width: 760px){
     header{
-        height: 7rem;
+        height: 5rem;
     }
         #img{
             margin-top: -1rem;
@@ -137,11 +160,11 @@ button{
             color: white;
         }
     header p{
-        font-size: 2.5rem;
+        font-size: 0.5rem;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 500;
-        margin-top: -5rem;
+        
     }
     .E, .D{
         display: block;
@@ -152,6 +175,7 @@ button{
         flex-direction: column;
         float: left;
         padding: 4rem;
+        margin-top: -0.5rem;
     }
     #sideB{
         display: flex;
@@ -159,7 +183,7 @@ button{
         float: left;
         text-align: center;
         padding: 4rem;
-        margin-top: 3.5rem;
+        margin-top: -2rem;
     }
         #geral{
         display: flex;
@@ -194,8 +218,10 @@ h2{
     margin-bottom: 1rem;
 }
 
-#mg {
+#mg{
     display: none;
+    
+    
 }
 
 #image {
@@ -211,7 +237,8 @@ h2{
     }
 
     #sideA{
-        padding: 1rem;
+        padding: 4rem;
+       
     }
     #sideB{
         padding: 4rem;
@@ -224,6 +251,7 @@ h2{
     }
     h1{
         font-size: 1.3rem;
+        margin-bottom: 2rem;
     }
 }
 
