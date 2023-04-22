@@ -150,7 +150,7 @@ button{
     margin-top: 1rem;
     margin-bottom: -1rem;
 }
-@media only screen and (max-width: 1440px) and (min-width: 760px){
+@media only screen and (max-width: 1366px) and (min-width: 768px){
     header{
         height: 5rem;
     }
@@ -174,7 +174,7 @@ button{
         display: flex;
         flex-direction: column;
         float: left;
-        padding: 4rem;
+        padding: 3rem;
         margin-top: -0.5rem;
     }
     #sideB{
@@ -182,7 +182,7 @@ button{
         flex-direction: column;
         float: left;
         text-align: center;
-        padding: 4rem;
+        padding: 3rem;
         margin-top: -2rem;
     }
         #geral{
@@ -203,10 +203,10 @@ button{
     
         }
 .imga{
-    width: 25rem;
+    width: 30rem;
 }
 .imgb {
-    width: 20rem;
+    width: 30rem;
 }
 h1{
     font-size: 1.5rem;
@@ -321,4 +321,572 @@ h2{
 #mg{
     display: none;
 }
+}
+
+
+@media only screen and (max-width: 2340px) and (min-width:1080px) {
+    header {
+        height: 6rem;
+    }
+
+    #sideA {
+        padding: 20rem;
+        margin-top: 1rem;
+
+    }
+
+    #sideB {
+        padding: 25rem;
+        margin-top: -1rem;
+    }
+
+    .imga {
+        width: 25rem;
+    }
+
+    .imgb {
+        width: 20rem;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1180px) and (min-width: 820px) {
+    header {
+        height: 6rem;
+       
+        
+    }
+
+    #img {
+        margin-top: -1rem;
+        height: 6rem;
+        color: white;
+    }
+
+    header p {
+        font-size: 2rem;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        margin-top: -5rem;
+    }
+
+    .E,.D {
+        display: block;
+    }
+
+    #sideA {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        padding: 2rem;
+        
+    }
+
+    #sideB {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        text-align: center;
+        padding: 2rem;
+
+    }
+
+    #geral {
+        display: flex;
+        width: 5rem;
+
+    }
+
+    .esconder {
+        display: none;
+        align-items: center;
+    }
+
+    .right-side button {
+        background-color: transparent;
+        cursor: pointer;
+
+
+
+    }
+
+    .img {
+        width: 22rem;
+    }
+
+    .img2 {
+        width: 20rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-top: -2rem;
+        margin-bottom: 1rem;
+    }
+
+    #mg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 760px) {
+    header {
+        height: 6rem;
+
+
+    }
+
+    #img {
+        margin-top: -1rem;
+        height: 6rem;
+        color: white;
+    }
+
+    header p {
+        font-size: 2rem;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        margin-top: -5rem;
+    }
+
+    .E,
+    .D {
+        display: block;
+    }
+
+    #sideA {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        padding: 3rem;
+
+    }
+
+    #sideB {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        text-align: center;
+        padding: 3rem;
+
+    }
+
+    #geral {
+        display: flex;
+        width: 5rem;
+
+    }
+
+    .esconder {
+        display: none;
+        align-items: center;
+    }
+
+    .right-side button {
+        background-color: transparent;
+        cursor: pointer;
+
+
+
+    }
+
+    .imga {
+        width: 19rem;
+    }
+
+    .imgb {
+        width: 16rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-top: -2rem;
+        margin-bottom: 1rem;
+    }
+
+    #mg {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 936px) and (min-width: 760px) {
+    header {
+        height: 6rem;
+
+
+    }
+
+    #img {
+        margin-top: -1rem;
+        height: 6rem;
+        color: white;
+    }
+
+    header p {
+        font-size: 2rem;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        margin-top: -5rem;
+    }
+
+    .E,
+    .D {
+        display: block;
+    }
+
+    #sideA {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        padding: 3rem;
+
+    }
+
+    #sideB {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        text-align: center;
+        padding: 1rem;
+
+    }
+
+    #geral {
+        display: flex;
+        width: 5rem;
+
+    }
+
+    .esconder {
+        display: none;
+        align-items: center;
+    }
+
+    .right-side button {
+        background-color: transparent;
+        cursor: pointer;
+
+
+
+    }
+
+    .imga {
+        width: 25rem;
+    }
+
+    .imgb {
+        width: 22rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #h2 {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.9rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #mg {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1180px) and (min-width: 820px) {
+    header {
+        height: 6rem;
+
+
+    }
+
+    #img {
+        margin-top: -1rem;
+        height: 6rem;
+        color: white;
+    }
+
+    header p {
+        font-size: 2rem;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        margin-top: -5rem;
+    }
+
+    .E,
+    .D {
+        display: block;
+    }
+
+    #sideA {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        padding: 3rem;
+
+    }
+
+    #sideB {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        text-align: center;
+        padding: 1rem;
+
+    }
+
+    #geral {
+        display: flex;
+        width: 5rem;
+
+    }
+
+    .esconder {
+        display: none;
+        align-items: center;
+    }
+
+    .right-side button {
+        background-color: transparent;
+        cursor: pointer;
+
+
+
+    }
+
+    .imga {
+        width: 20rem;
+    }
+
+    .imgb {
+        width: 18rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #h2 {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #mg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 936px) and (min-width: 760px) {
+    header {
+        height: 6rem;
+
+
+    }
+
+    #img {
+        margin-top: -1rem;
+        height: 6rem;
+        color: white;
+    }
+
+    header p {
+        font-size: 2rem;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        margin-top: -5rem;
+    }
+
+    .E,
+    .D {
+        display: block;
+    }
+
+    #sideA {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        padding: 3rem;
+
+    }
+
+    #sideB {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        text-align: center;
+        padding: 1rem;
+
+    }
+
+    #geral {
+        display: flex;
+        width: 5rem;
+
+    }
+
+    .esconder {
+        display: none;
+        align-items: center;
+    }
+
+    .right-side button {
+        background-color: transparent;
+        cursor: pointer;
+
+
+
+    }
+
+    .imga {
+        width: 25rem;
+    }
+
+    .imgb {
+        width: 22rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #h2 {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.9rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #mg {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1440px) and (min-width: 900px) {
+    header {
+        height: 6.5rem;
+
+
+    }
+
+    #img {
+        margin-top: -1rem;
+        height: 6rem;
+        color: white;
+    }
+
+    header p {
+        font-size: 1.8rem;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        margin-top: -5rem;
+    }
+
+    .E,
+    .D {
+        display: block;
+    }
+
+    #sideA {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        padding: 8rem;
+        margin-top: -3rem;
+
+    }
+
+    #sideB {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        text-align: center;
+        padding: 1rem;
+        margin-top: -4rem;
+
+    }
+
+    #geral {
+        display: flex;
+        width: 5rem;
+
+    }
+
+    .esconder {
+        display: none;
+        align-items: center;
+    }
+
+    .right-side button {
+        background-color: transparent;
+        cursor: pointer;
+
+
+
+    }
+
+    .imga {
+        width: 25rem;
+    }
+
+    .imgb {
+        width: 22rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #h2 {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #mg {
+        display: none;
+    }
+    #image{
+        display: block;
+    }
 }
