@@ -596,7 +596,7 @@ form input[type="submit"] {
         display: flex;
     }
     #esquerda {
-        height: 28rem;
+        height: 27.5rem;
         flex: 1;
     }
     .direita{
