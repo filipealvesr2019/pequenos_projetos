@@ -258,10 +258,110 @@ form input[type="submit"]{
 }
 
 
-/*--tela responsiva para iphone SE de 375x667--*/
-@media only screen and (max-width: 760px) and (min-width: 300px) {
-    img{
+
+@media only screen and (max-width: 1280px) and (min-width: 800px) {
+    .meio{
         display: flex;
-        flex-wrap: wrap ;
+    }
+    #esquerda{
+        flex: 1;
+    }
+    h1{
+        font-size: 0.5rem;
+    }
+    .direita{
+        flex: 1;
+    }
+    button {
+            background-color: #514988;
+            height: 10%;
+            width: 350px;
+            border-radius: 12px;
+            color: #ffffff;
+            font-family: 'Verdana';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 51px;
+    
+            border: 0;
+            border: 1px solid black;
+            float: right;
+            margin-top: 4rem;
+            margin-left: 9rem;
+    
+    
+    
+        }
+    
+        button:hover {
+            background: #514988;
+            cursor: pointer;
+            color: #F3C61F;
+        }
+        .fundo{
+            display: flex;
+        }
+        .ingresso{
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+        }
+        .ingresso img{
+            flex-wrap:wrap;
+            justify-content: space-evenly;
+            
+        }
+}
+
+@media only screen and (max-width: 844px) and (min-width: 390px) {
+    .meio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #esquerda {
+        flex: 1;
+        
+    }
+
+    h1 {
+        font-size: 0.5rem;
+    }
+
+    .direita {
+        flex: 1;
+    }
+
+    button {
+        background-color: #514988;
+        height: 10%;
+        width: 350px;
+        border-radius: 12px;
+        color: #ffffff;
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 51px;
+
+        border: 0;
+        border: 1px solid black;
+        float: right;
+        margin-top: 4rem;
+        margin-left: 9rem;
+
+
+
+    }
+
+    button:hover {
+        background: #514988;
+        cursor: pointer;
+        color: #F3C61F;
+    }
+
+    .fundo {
+        display: flex;
     }
 }
