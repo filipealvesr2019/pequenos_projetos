@@ -625,3 +625,39 @@ form input[type="submit"] {
         padding-left: 3rem;
     }
 }
+
+@media only screen and (min-width: 900px) and (max-width: 1440px)  {
+    .topo {
+        height: 0.5rem;
+    }
+
+    .meio {
+        display: flex;
+    }
+    .meio h1{
+        font-size: 2rem;
+    }
+    #esquerda {
+        height: 27.5rem;
+
+        width: 10rem;
+    }
+
+    .direita {
+
+        width:10rem;
+
+    }
+
+    #video {
+       width: 26rem;
+     
+        background-image: cover;
+
+    }
+
+    .fundo {
+        margin-top: -14rem;
+        padding-left: 3rem;
+    }
+}
