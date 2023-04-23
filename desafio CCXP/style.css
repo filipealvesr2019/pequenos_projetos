@@ -574,32 +574,44 @@ form input[type="submit"] {
     }
 
     #esquerda{
-        height: 32rem;
+        height: 30.8rem;
+        width: 45rem;
     }
     #video{
-        margin-top: -17rem;
-        width: 45rem;
+        margin-top: -16rem;
+        width: 42rem;
         background-image: cover;
+        padding-left: 1rem;
     }
     .fundo{
         margin-top: -13rem;
     }
 }
 
-@media only screen and (max-width: 1368px) and (min-width: 720px) {
+@media only screen and (max-width: 1368px) and (min-width: 768px) {
     .topo {
         height: 0.5rem;
     }
-
-    #esquerda {
-        height: 30.6rem;
+    .meio{
+        display: flex;
     }
-
+    #esquerda {
+        height: 28rem;
+        flex: 1;
+    }
+    .direita{
+        padding-right: -15rem;
+        
+    }
     #video {
         margin-top: -17rem;
+        width: 39rem;
+        margin-top: -18.5rem;
+        padding-left: -1rem;
+        flex: 2;
     }
-
     .fundo {
-        margin-top: -13rem;
+        margin-top: -14rem;
+        padding-left: 3rem;
     }
 }
