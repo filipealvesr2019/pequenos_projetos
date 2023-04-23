@@ -80,7 +80,7 @@ body {
 
 #esquerda {
     background-color: #514988;
-    height: 63%;
+    height: 10rem;
 
 
     font-family: 'Verdana';
@@ -565,5 +565,39 @@ form input[type="submit"] {
 
     .fundo {
         display: flex;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 900px){
+.topo{
+        height: 0.5rem;
+    }
+
+    #esquerda{
+        height: 30.8rem;
+    }
+    #video{
+        margin-top: -17rem;
+    }
+    .fundo{
+        margin-top: -13rem;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 720px) {
+    .topo {
+        height: 0.5rem;
+    }
+
+    #esquerda {
+        height: 30rem;
+    }
+
+    #video {
+        margin-top: -17rem;
+    }
+
+    .fundo {
+        margin-top: -13rem;
     }
 }
