@@ -574,23 +574,25 @@ form input[type="submit"] {
     }
 
     #esquerda{
-        height: 30.8rem;
+        height: 32rem;
     }
     #video{
         margin-top: -17rem;
+        width: 45rem;
+        background-image: cover;
     }
     .fundo{
         margin-top: -13rem;
     }
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 720px) {
+@media only screen and (max-width: 1368px) and (min-width: 720px) {
     .topo {
         height: 0.5rem;
     }
 
     #esquerda {
-        height: 30rem;
+        height: 30.6rem;
     }
 
     #video {
