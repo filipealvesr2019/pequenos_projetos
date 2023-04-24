@@ -409,7 +409,7 @@ form input[type="submit"] {
     #esquerda {
         flex: 1;
         width: 50rem;
-        
+
     }
 
     h1 {
@@ -418,9 +418,9 @@ form input[type="submit"] {
 
     .direita {
         flex: 1;
-       text-align: center;
-       align-items: center;
-  
+        text-align: center;
+        align-items: center;
+
     }
 
     button {
@@ -458,14 +458,16 @@ form input[type="submit"] {
 
     .ingresso {
         align-items: center;
-        
-       
+
+
     }
-    .timer{
+
+    .timer {
         text-align: center;
     }
-    #video{
-        background-image:cover;
+
+    #video {
+        background-image: cover;
         padding-left: 4rem;
         align-items: center;
     }
@@ -481,7 +483,7 @@ form input[type="submit"] {
     #esquerda {
         flex: 1;
         white-space: nowrap;
-            
+
 
     }
 
@@ -525,14 +527,17 @@ form input[type="submit"] {
         display: flex;
     }
 }
+
 @media only screen and (max-width: 480px) and (min-width: 320px) {
     .meio {
         display: flex;
         flex-direction: column;
     }
-    .meio p{
+
+    .meio p {
         font-size: 0.7rem;
     }
+
     #esquerda {
         flex: 1;
         white-space: nowrap;
@@ -550,7 +555,7 @@ form input[type="submit"] {
     .direita {
         flex: 1;
         flex-wrap: wrap;
-        
+
     }
 
     button {
@@ -588,57 +593,64 @@ form input[type="submit"] {
     }
 }
 
-@media only screen and (max-width: 2340px) and (min-width: 1080px){
-.topo{
-        height: 0.5rem;
-    }
-
-    #esquerda{
-        height: 30.8rem;
-        flex: 1;
-    }
-    .direita{
-        flex: 1;
-    }
-    #video{
-       width: 40rem;
-    }
-    .fundo{
-      
-    }
+@media only screen and (min-width: 1080px) {
+    
 }
+    @media only screen and (min-width: 900px) {
+        .topo {
+            height: 0.5rem;
+            height: 30.8rem;
+            flex: 1;
+        }
 
-@media only screen and (max-width: 1368px) and (min-width: 768px) {
-    .topo {
-        height: 0.5rem;
-    }
-    .meio{
-        display: flex;
-    }
-    #esquerda {
-        height: 27.5rem;
-        flex: 1;
-    }
-    .direita{
-        padding-right: -15rem;
-        
-    }
-    #video {
-        margin-top: -17rem;
-        width: 39rem;
-        margin-top: -18.5rem;
-        padding-left: -1rem;
-        flex: 2;
-    }
-    .fundo {
-        margin-top: -14rem;
-        padding-left: 3rem;
-    }
-}
+        .direita {
+            flex: 1;
+            max-width: 15rem;
+        }
 
-@media only screen and (max-width: px) and (min-width: ){
+        #video {
+            width: 20rem;
+        }
+
+        .fundo {}
+
+        .topo {
+            height: 0.5rem;
+        }
+
+        .meio {
+            display: flex;
+        }
+
+        #esquerda {
+            height: 27.5rem;
+            flex: 1;
+            max-width: 45rem;
+        }
+
+        .direita {
+            padding-right: -15rem;
+
+        }
+
+        #video {
+            margin-top: -17rem;
+            width: 39rem;
+            margin-top: -18.5rem;
+            padding-left: -1rem;
+            flex: 2;
+        }
+
+        .fundo {
+            margin-top: -14rem;
+            padding-left: 3rem;
 
 
-}
+        }
 
+
+
+
+
+    }
 
