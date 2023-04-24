@@ -594,13 +594,13 @@ form input[type="submit"] {
 
     #esquerda{
         height: 30.8rem;
-        width: 80rem;
+        flex: 1;
     }
     .direita{
-        width: 15rem;
+        flex: 1;
     }
     #video{
-       width: 15rem;
+       width: 40rem;
     }
     .fundo{
       
