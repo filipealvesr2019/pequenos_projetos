@@ -529,10 +529,15 @@ form input[type="submit"] {
         display: flex;
         flex-direction: column;
     }
-
+    .meio p{
+        font-size: 0.7rem;
+    }
     #esquerda {
         flex: 1;
         white-space: nowrap;
+        width: 18rem;
+        text-align: center;
+        padding: 1rem;
 
 
     }
@@ -543,6 +548,8 @@ form input[type="submit"] {
 
     .direita {
         flex: 1;
+        flex-wrap: wrap;
+        
     }
 
     button {
@@ -575,6 +582,8 @@ form input[type="submit"] {
 
     .fundo {
         display: flex;
+        justify-content: center;
+        text-align: center;
     }
 }
 
