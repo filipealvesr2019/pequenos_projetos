@@ -437,9 +437,7 @@ form input[type="submit"] {
 
         border: 0;
         border: 1px solid black;
-        float: right;
-        margin-top: 4rem;
-        margin-left: 9rem;
+        margin: 1% auto;
 
 
 
@@ -453,10 +451,13 @@ form input[type="submit"] {
 
     .fundo {
         display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 4rem;
     }
 
     .ingresso {
-        
+        align-items: center;
         
        
     }
