@@ -422,8 +422,8 @@ form input[type="submit"] {
 
     .direita {
         grid-template-columns: 2;
-        text-align: center;
-        align-items: center;
+        display: flex;
+        flex-direction: column;
 
     }
 
