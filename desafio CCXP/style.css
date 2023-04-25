@@ -399,10 +399,84 @@ form input[type="submit"] {
     }
 }
 
-@media only screen and (max-width: 1280px) and (min-width: 800px) {
+@media only screen and (min-width: 950px) and (orientation: portrait){
     .topo{
       
     }
+    .meio {
+        display: grid;
+        grid-auto-flow: column;
+
+    }
+
+    #esquerda {
+        width: 70rem;
+
+    }
+
+    h1 {
+        font-size: 0.5rem;
+    }
+
+    .direita {
+        
+
+    }
+
+    button {
+        background-color: #514988;
+        height: 10%;
+        width: 350px;
+        border-radius: 12px;
+        color: #ffffff;
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 51px;
+
+        border: 0;
+        border: 1px solid black;
+        margin: 1% auto;
+
+
+
+    }
+
+    button:hover {
+        background: #514988;
+        cursor: pointer;
+        color: #F3C61F;
+    }
+
+    .fundo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 4rem;
+    }
+
+    .ingresso {
+        align-items: center;
+
+
+    }
+
+    .timer {
+        text-align: center;
+    }
+
+    #video {
+        background-image: cover;
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+}
+@media only screen and (max-width: 1368) and (min-width: 912px) and (orientation: landscape){
+    .topo {}
+
     .meio {
         display: grid;
         grid-auto-flow: column;
@@ -411,7 +485,7 @@ form input[type="submit"] {
 
     #esquerda {
         grid-column: 1;
-        max-width: 53rem;
+        max-width: 50rem;
         background-color: #514988;
 
     }
@@ -472,12 +546,12 @@ form input[type="submit"] {
 
     #video {
         background-image: cover;
-        padding-left: 4rem;
-        align-items: center;
+        width: 50%;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
     }
 
 }
-
 @media only screen and (max-width: 844px) and (min-width: 390px) {
     .meio {
         display: flex;
@@ -619,7 +693,7 @@ flex-direction: column;
     }
     
 }
-    @media only screen and (min-width: 900px) {
+    @media only screen and (min-width: 280px) and (orientation: landscape){
         .topo {
             height: 0.5rem;
             height: 30.8rem;
@@ -627,12 +701,12 @@ flex-direction: column;
         }
 
         .direita {
-            flex: 1;
+           
             max-width: 15rem;
         }
 
         #video {
-            width: 20rem;
+            width:45rem;
         }
 
         .fundo {}
