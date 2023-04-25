@@ -594,6 +594,18 @@ form input[type="submit"] {
 }
 
 @media only screen and (min-width: 1080px) {
+    .meio{
+        
+    }
+    #esquerda{
+        width: 100%;
+    }
+    .direita{
+
+    }
+    #video{
+
+    }
     
 }
     @media only screen and (min-width: 900px) {
