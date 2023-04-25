@@ -595,10 +595,9 @@ form input[type="submit"] {
 
 @media only screen and (min-width: 1080px) {
     .meio{
-        
+        display: flex;
     }
     #esquerda{
-        width: 100%;
     }
     .direita{
 
