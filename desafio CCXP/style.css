@@ -158,7 +158,7 @@ body {
 button {
     background-color: #514988;
     height: 40%;
-    width: 350px;
+    width: 22rem;
     border-radius: 12px;
     color: #ffffff;
     font-family: 'Verdana';
@@ -400,15 +400,19 @@ form input[type="submit"] {
 }
 
 @media only screen and (max-width: 1280px) and (min-width: 800px) {
+    .topo{
+      
+    }
     .meio {
         display: grid;
         grid-auto-flow: column;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     #esquerda {
-        flex: 1;
-        width: 50rem;
+        grid-column: 1;
+        max-width: 53rem;
+        background-color: #514988;
 
     }
 
@@ -417,7 +421,7 @@ form input[type="submit"] {
     }
 
     .direita {
-        flex: 1;
+        grid-template-columns: 2;
         text-align: center;
         align-items: center;
 
@@ -593,17 +597,25 @@ form input[type="submit"] {
     }
 }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .topo{
+        width: 100%;
+    }
     .meio{
-        display: flex;
+display: flex;
+flex-direction: column;
     }
     #esquerda{
+        width: 400%;
     }
     .direita{
 
     }
     #video{
 
+    }
+    button{
+        
     }
     
 }
