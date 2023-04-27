@@ -6,13 +6,13 @@
     box-sizing: border-box;
 }
 header{
-    height: 4rem;
+    height: 3rem;
     background: #303030;
     padding: 20px;
 }
 #img{
     margin-top: -2rem;
-    height: 5rem;
+    height: 4rem;
 }
 p{
     color: #FFFFFF;
