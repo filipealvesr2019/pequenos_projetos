@@ -80,6 +80,7 @@
 .modal{
   width: 15rem;
   height: 15rem;
+  
 }
   </style>
   <body>
@@ -116,7 +117,7 @@
               class="nav-link sobre"
               data-bs-toggle="modal"
               data-bs-target="#meuModal"
-              id="openModalText"
+              id="openModalTextA"
               >Sobre</a>
               <div id="modal" class="modal">
                 <div class="modal-content">
@@ -129,8 +130,18 @@
                 </div>
               </div>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" id="openModalTextB">
             <a href="#" class="nav-link contato">Contato</a>
+             <div id="modal" class="modal">
+                <div class="modal-content">
+                  <span class="close" id="close">&times;</span>
+                  <h2>Contato</h2>
+                  <p>Endereço: Rua Fictícia, 123</p>
+                  <p>Telefone: (00) 1234-5678</p>
+                  <p>Email: exemplo@ficticio.com</p>
+                  <button class="close-button" id="close-button">Fechar</button>
+                </div>
+              </div>
           </li>
           <li >
             <button class="btn btn-light btn-corner">Fazer pedido</button>

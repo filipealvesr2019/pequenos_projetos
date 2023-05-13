@@ -11,16 +11,20 @@ function hideButton(card){
 
 
 var modal = document.getElementById("modal");
-var openModalText = document.getElementById("openModalText");
-var closeBtn = document.getElementById("close");
-var closeButton = document.getElementById("close-button");
+var openModalTextA = document.getElementById("openModalTextA");
+var openModalTextB = document.getElementById("openModalTextB")
+var closeBtn = document.getElementsByClassName("close")[0];
+var closeButton = document.getElementsByClassName("close-button")[0];
 
-openModalText.onclick = function(){
+openModalTextA.onclick = function(){
     modal.style.display = "block";
     closeButton.style.display = "inline-block";
 }
 
-
+openModalTextB.onclick = function(){
+    modal.style.display = "block";
+    closeButton.style.display = "inline-block";
+}
 
 closeBtn.onclick = function(){
     modal.style.display = "none";
