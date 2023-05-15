@@ -19,6 +19,7 @@
     ></script>
     <title>café shop</title>
     <link href="https://fonts.cdnfonts.com/css/helvetica-2" rel="stylesheet" />
+    <link rel="stylesheet" href="modal.js">
   </head>
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap");
@@ -80,8 +81,10 @@
 .modal{
   width: 15rem;
   height: 15rem;
+  display: none;
   
 }
+
   </style>
   <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
@@ -114,34 +117,39 @@
           <li class="nav-item">
             <a
               href="#"
-              class="nav-link sobre"
+              class="nav-link sobre text"
               data-bs-toggle="modal"
               data-bs-target="#meuModal"
-              id="openModalTextA"
+              onclick="openModal(1)"
               >Sobre</a>
-              <div id="modal" class="modal">
-                <div class="modal-content">
-                  <span class="close" id="close">&times;</span>
+              <div id="modal1" class="modal">
+                <div class="modal-content" onclick="event.stopPropagation()">
+                  <span class="close" onclick="closeModal(1)">&times;</span>
                   <h2>Quem somos nós? </h2>
-                  <p>Tudo o que fazemos procura respeitar essa conexão, desde nosso compromisso com o café de melhor qualidade do mundo até a forma como nós interagimos com nossos clientes e nossas comunidades para conduzir nosso negócio de modo responsável.
-</p>
+
+                  <p>Tudo o que fazemos procura respeitar essa conexão,<br> desde nosso compromisso com o café de melhor<br> qualidade do mundo até a forma como nós interagimos<br> com nossos clientes e nossas comunidades para<br> conduzir nosso negócio de modo responsável.
+    </p>           
                   <img src="images/logoCafe.svg" alt="logoCafe">
-                  <button class="close-button" id="close-button">Fechar</button>
+                  <button class="close-button" onclick="closeModal(1)"></button>
                 </div>
               </div>
           </li>
-          <li class="nav-item" id="openModalTextB">
-            <a href="#" class="nav-link contato">Contato</a>
-             <div id="modal" class="modal">
-                <div class="modal-content">
-                  <span class="close" id="close">&times;</span>
-                  <h2>Contato</h2>
-                  <p>Endereço: Rua Fictícia, 123</p>
-                  <p>Telefone: (00) 1234-5678</p>
-                  <p>Email: exemplo@ficticio.com</p>
-                  <button class="close-button" id="close-button">Fechar</button>
-                </div>
+          <li class="nav-item" >
+            <a href="#" onclick="openModal(2)" class="nav-link contato text">Contato</a>
+             <div id="modal2" class="modal">
+              <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="close" onclick="closeModal(1)">&times;</span>
+                <h2>Contato</h2>
+
+                <p>Rua Fictícia, 123
+Bairro Imaginário
+Cidade dos Sonhos
+Estado dos Sonhos
+CEP: 12345-678</p>
+                <p>Endereço de e-mail: example@example.com</p>
+                <p>Telefone: +1 555-123-4567</p>
               </div>
+             </div>
           </li>
           <li >
             <button class="btn btn-light btn-corner">Fazer pedido</button>
