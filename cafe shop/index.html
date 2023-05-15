@@ -122,7 +122,7 @@
               data-bs-target="#meuModal"
               onclick="openModal(1)"
               >Sobre</a>
-              <div id="modal1" class="modal">
+              <div id="modal1" class="modal" onclick="closeModal(1)">
                 <div class="modal-content" onclick="event.stopPropagation()">
                   <span class="close" onclick="closeModal(1)">&times;</span>
                   <h2>Quem somos nós? </h2>
@@ -135,10 +135,10 @@
               </div>
           </li>
           <li class="nav-item" >
-            <a href="#" onclick="openModal(2)" class="nav-link contato text">Contato</a>
-             <div id="modal2" class="modal">
-              <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="close" onclick="closeModal(1)">&times;</span>
+            <a href="#" class="nav-link contato text" onclick="openModal(2)">Contato</a>
+              <div id="modal2" class="modal" onclick="closeModal(2)">
+                <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="close" onclick="closeModal(2)">&times;</span>
                 <h2>Contato</h2>
 
                 <p>Rua Fictícia, 123
@@ -148,6 +148,9 @@ Estado dos Sonhos
 CEP: 12345-678</p>
                 <p>Endereço de e-mail: example@example.com</p>
                 <p>Telefone: +1 555-123-4567</p>
+                <img src="images/logoCafe.svg" alt="logoCafe">
+                  <button class="close-button" onclick="closeModal(2)"></button>
+              </div>
               </div>
              </div>
           </li>
@@ -209,5 +212,6 @@ CEP: 12345-678</p>
     </section>
    
     <script src="index.js"></script>
+    <script src="modal.js"></script>
   </body>
 </html>
