@@ -87,7 +87,7 @@ li{
 
 .close{
     color: #aaa;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     position: absolute;
     top: 10px;
@@ -103,8 +103,9 @@ li{
     color: #ffffff;
     font-family:helvetica-2;
     border: 0;
-    border-radius: 8px;
-    width: 60px;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
 }
 .close-button:hover{
     background-color: gray;
