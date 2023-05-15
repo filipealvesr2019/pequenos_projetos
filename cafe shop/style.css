@@ -110,3 +110,12 @@ li{
 h2 {
     margin-top: 0;
 }
+.modal-content img{
+    width: 200px;
+    height: auto;
+    position: relative;
+    top: 50%;
+        left: 50%;
+        transform: translate(-50%);
+    
+}
