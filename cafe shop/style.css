@@ -106,6 +106,7 @@ li{
     border-radius: 5px;
     width: 70px;
     height: 30px;
+    
 }
 .close-button:hover{
     background-color: gray;
@@ -149,4 +150,12 @@ p{
 .btn-corner{
   margin-left: -10rem;
 }
+}
+
+@media only screen and (min-width: 280px) {
+  .close-button{
+    bottom:4px;
+    width: 4rem;
+
+  }
 }
