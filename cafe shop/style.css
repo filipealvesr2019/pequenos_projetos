@@ -176,6 +176,24 @@ p{
     .navbar-nav{
       margin-left: 1rem;
     }
+
+        .btn-corner {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 500;
+          background-color: #FFFFFF;
+          border: 1px solid #D1D1D1;
+          color: #000000;
+        
+          border-radius: 15px;
+          margin-left: 50px;
+          width: 15rem;
+        }
+    
+        .btn-corner:hover {
+          background-color: #D1D1D1;
+          color: #FFFFFF;
+        }
 }
 
 
