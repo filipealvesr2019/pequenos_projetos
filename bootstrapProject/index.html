@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>Formulário de Endereço</title>
+    <script>
+      async function getCep(event) {
+        const cep = document.getElementById("cep").value;
+        try {
+          const response = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
+          const data = await response.json();
+          console.log(data)
+       
+
+        } catch (error) {
+            alert(error.message)
+        }
+      }
+
+      async function getPrevisao(event) {
+        const Latitude = document.getElementById("latitude").value;
+        const Longitude = document.getElementById("longitude").value;
+
+        try {
+          const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${Latitude}&longitude=${Longitude}&hourly=temperature_2m`);
+          const data = await response.json();
+          console.log(data)
+          document.getElementById("resposta").innerHTML = "";
+          for(let index = 0; index < data.hourly.temperature_2m.length; index++ ){
+            document.getElementById("resposta").innerHTML += `<div>${data.hourly.time[index]} - ${data.hourly.temperature_2m[index]}</div>`;
+
+          }
+
+         
+
+        } catch (error) {
+            alert(error.message)
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h2>Informe seu Endereço</h2>
+      <form>
+        <div class="mb-3">
+          <label for="cep" class="form-label">CEP:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="cep"
+            placeholder="Digite seu CEP"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="rua" class="form-label">Rua:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="rua"
+            placeholder="Digite sua Rua"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="bairro" class="form-label">Bairro:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="bairro"
+            placeholder="Digite seu Bairro"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="cidade" class="form-label">Cidade:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="cidade"
+            placeholder="Digite sua Cidade"
+          />
+        </div>
+        
+        <button type="button" class="btn btn-primary" onclick="getCep(event)">
+          Enviar
+        </button>
+      </form>
+    </div>
+    <hr/>
+    /-- Latitude: -3.71839, Longitude: -38.5434--/
+    <div class="container mt-5">
+        <h2>Informe a Latitude é Longitude</h2>
+        <form>
+          
+          <!-- Adicione os campos de latitude e longitude -->
+          <div class="mb-3">
+            <label for="latitude" class="form-label">Latitude:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="latitude"
+              placeholder="Latitude"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="longitude" class="form-label">Longitude:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="longitude"
+              placeholder="Longitude"
+            />
+          </div>
+          <div class="container">
+            <div id="resposta">
+
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary" onclick="getPrevisao(event)">
+            Enviar
+          </button>
+        </form>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
